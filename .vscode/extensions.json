@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "github.copilot",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ms-python.python",
+    "SonarSource.sonarlint-vscode",
+    "ms-azuretools.vscode-docker"
+  ]
+}
