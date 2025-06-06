@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "gen": "python scripts/gen_code.py",
+    "test": "pytest"
+  }
+}
