@@ -1,0 +1,6 @@
+{
+  "name": "ai-regulator-vscode-extension",
+  "version": "0.1.0",
+  "main": "./src/extension.js",
+  "dependencies": {}
+}
