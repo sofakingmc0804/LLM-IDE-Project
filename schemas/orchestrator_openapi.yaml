@@ -1,0 +1,10 @@
+openapi: 3.0.1
+info:
+  title: LLM Orchestrator API
+  version: 1.0.0
+paths:
+  /orchestrate:
+    post:
+      summary: Fan‑out prompt to multiple LLMs
+      requestBody: {} # define PromptRequest schema
+      responses: {}   # define OrchestratedResponse schema
