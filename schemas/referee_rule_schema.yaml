@@ -1,0 +1,5 @@
+# Define rule IDs, conditions, severity levels
+rules:
+  - id: bias_detection
+    description: Detect bias in text
+    parameters: {}
