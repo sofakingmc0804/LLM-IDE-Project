@@ -1,0 +1,21 @@
+name: CI
+on: [push,pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with: { python-version: '3.9' }
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+      - name: Lint & Test
+        run: |
+          pylint src
+          pytest
+      - uses: actions/setup-node@v3
+        with: { node-version: '16' }
+      - name: Install UI deps
+        run: npm install --prefix src/ui/web
+      - name: Lint UI
+        run: npm run lint --prefix src/ui/web
