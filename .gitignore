@@ -1,16 +1,22 @@
 # Python
 __pycache__/
 *.py[cod]
+venv/
 .env
 
 # Node
 node_modules/
-npm-debug.log
+npm-debug.log*
 
 # VS Code
 .vscode/
 
 # Dev Container
 .devcontainer/
-\ n# Logs
+
+# Logs
 logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
