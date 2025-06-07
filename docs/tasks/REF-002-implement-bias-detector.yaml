@@ -1,0 +1,10 @@
+task_id: "REF-002"
+parent_epic: "referee-agent-core"
+context_files:
+  - "/schemas/referee_rule_schema.yaml"
+acceptance_criteria:
+  - "detect_bias(text: str) -> BiasResult exists"
+security_constraints:
+  - "No external API calls"
+prompt_template: |
+  "Implement detect_bias() per schema..."
