@@ -1,0 +1,6 @@
+{
+  "name": "ai-regulator-web-dashboard",
+  "version": "0.1.0",
+  "scripts": { "start": "react-scripts start" },
+  "dependencies": { "react": "^18.0.0" }
+}
